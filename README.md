@@ -13,12 +13,13 @@ A short description of the motivation behind the creation and maintenance of the
 
 ## Installation
 
-###Prerequisites/System Requirements
+### Prerequisites/System Requirements
 
 [Fork the upstream remote here](https://github.com/JustinHenderson88/Bernard_bot)
 
-For download instructions and launching the app on the localhost:
-To download all dependencies,
+### Quickstart ### 
+
+Download all dependencies via npm
 ```
 npm i
 ```
@@ -26,7 +27,9 @@ Launch the app on terminal
 ```
 node app
 ``` 
-On default, the app will be hosted on `localhost:7500`.
+By default, the app will be hosted on `localhost:7500`
+
+(Add some cool screenshot on startup here)
 
 ## API Reference
 
