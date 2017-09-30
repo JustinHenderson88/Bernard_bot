@@ -1,0 +1,28 @@
+{
+  "name": "bernard_bot",
+  "version": "1.0.0",
+  "description": "chatbot app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larrycustodio/Bernard_bot.git"
+  },
+  "keywords": [
+    "chatbot",
+    "node"
+  ],
+  "author": "larrycustodio, justinhenderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/larrycustodio/Bernard_bot/issues"
+  },
+  "homepage": "https://github.com/larrycustodio/Bernard_bot#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.1",
+  }
+}
