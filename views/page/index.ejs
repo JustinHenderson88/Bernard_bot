@@ -1,16 +1,26 @@
-
 <% include ../partials/head %>
 
-<div class="container">
-        <h1>Bot MapBox</h1>
-        <div class="row">
-          <div class="col-8" class="map" id="mapBox">
-            This is where we put out maps
+  <div class="container">
+    <h1 class="bd-title">Bot MapBox</h1>
+    <hr class="my-4" />
+    <p class="bd-lead">Some brief marketing hook about Bernard</p>
+    <div class="card">
+      <div class="card-body row">
+        <div class="map-box col-8" id="map">
+          Map is loading...
+        </div>
+        <div class="col-4 d-flex flex-column" id="chatBox">
+          <div class="card">
+            <div class="card-body">
+              <p>This is where we put our chatbox messages[placeholder]</p>
+            </div>
           </div>
-          <div class="col-4" id="chatBox">
-            This is where we put our chatbox
+          <div class="chat-input-container align-self-end">
+            <input class="form-control form-control-lg justify-content-center" type="text" placeholder="Message goes here" />
           </div>
         </div>
-      </div>     
+      </div>
+    </div>
+  </div>
 
-<% include ../partials/footer %>
+  <% include ../partials/footer %>

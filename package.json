@@ -24,6 +24,7 @@
     "express": "^4.16.1"
   },
   "devDependencies": {
-    "ejs": "^2.5.7"
+    "ejs": "^2.5.7",
+    "path": "^0.12.7"
   }
 }
