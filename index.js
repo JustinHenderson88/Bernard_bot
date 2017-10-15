@@ -15,12 +15,16 @@ app.use('/public', express.static(path.join(__dirname,"public")));
 
 /* *
  * Denotes app routing request 'localhost:PORT/' to respond
- * with 
+ * by rendering index.html file
  * */
 app.get('/',(req,res)=>{
     res.sendFile(path.join(__dirname + '/public/index.html'));
 });
 
+/* *
+ * Starts a UNIX socket to listen for connections on the path:
+ * localhost:7500/
+ * */
 app.listen(PORT, (success,error)=>{
     console.log("Listening to localhost:"+ PORT);
 });

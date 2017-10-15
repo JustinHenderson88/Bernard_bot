@@ -24,7 +24,7 @@ npm install
 ```
 Launch the app on terminal
 ```
-node app
+npm run start
 ``` 
 By default, the app can be accessed at: `localhost:7500` on your internet browser
 
