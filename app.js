@@ -1,13 +1,24 @@
-const express = require("express");
+/* *
+ * Creates an ExpressJS application by exporting express on node_modules
+ * Declares port number
+ * */
+const express = require('express');
+const path = require('path');
 const app = express();
-const ejs = require("ejs");
 const PORT = 7500;
 
-app.use(express.static("public"));
-app.set("view engine", 'ejs');
+/* * 
+ * Serve root directory in which we store static assets 
+ * (i.e. images, css files, other third-party js files)
+ * */
+app.use('/public', express.static(path.join(__dirname,"public")));
 
-app.get("/",(req,res)=>{
-    res.render('./page/index');
+/* *
+ * Denotes app routing request 'localhost:PORT/' to respond
+ * with 
+ * */
+app.get('/',(req,res)=>{
+    res.sendFile(path.join(__dirname + '/public/index.html'));
 });
 
 app.listen(PORT, (success,error)=>{
