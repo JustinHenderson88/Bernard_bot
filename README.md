@@ -13,27 +13,22 @@ A short description of the motivation behind the creation and maintenance of the
 
 ## Installation
 
-### Prerequisites/System Requirements
-
-[Fork the upstream remote here](https://github.com/JustinHenderson88/Bernard_bot)
 
 ### Quickstart ### 
 
-Download all dependencies via npm
+[Fork/Clone our repository](https://github.com/JustinHenderson88/Bernard_bot)
+
+Download all required dependencies via NPM
 ```
-npm i
+npm install
 ```
 Launch the app on terminal
 ```
 node app
 ``` 
-By default, the app will be hosted on `localhost:7500`
+By default, the app can be accessed at: `localhost:7500` on your internet browser
 
 (Add some cool screenshot on startup here)
-
-## API Reference
-
-Add some reference documents and discuss API implementation process here.
 
 ## Tests
 
@@ -41,7 +36,7 @@ Let's add instructions and tests here
 
 ## Contributors
 
-This has been a collaboration project between two guys 
+This has been a collaboration project between two guys etc etc.
 
 ## License
 
