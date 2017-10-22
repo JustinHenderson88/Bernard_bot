@@ -22,6 +22,10 @@ Download all required dependencies via NPM
 ```
 npm install
 ```
+Install Nodemon - listens for changes in files on the working directory and automatically restarts your Node app
+```
+npm install -g nodemon
+```
 Launch the app on terminal
 ```
 npm run start
