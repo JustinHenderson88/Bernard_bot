@@ -1,0 +1,10 @@
+
+body {
+	background: url(https://source.unsplash.com/lRssALOk1fU);
+	background-size: cover;
+	opacity: (50%);
+}
+
+.color{
+	border: 3px red solid;
+}
