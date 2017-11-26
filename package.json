@@ -4,6 +4,7 @@
   "description": "chatbot app",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,9 +22,17 @@
     "url": "https://github.com/larrycustodio/Bernard_bot/issues"
   },
   "homepage": "https://github.com/larrycustodio/Bernard_bot#readme",
-  "dependencies": {},
+  "dependencies": {
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1"
+  },
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
     "ejs": "^2.5.7",
-    "express": "^4.16.1"
+    "express": "^4.16.2",
+    "webpack": "^3.8.1"
   }
 }
